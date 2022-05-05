@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="productos.js"> </script>
+
+    <header>
+      <h1><a class="ambos" href="productos.html">Productos</a> - <a class="ambos" href="carrito.html">Carrito</a></h1>
+    </header>
+
+
+</head>
+<body style="background-color: gray;">
+
+
+<form class="box" action="productos.html" method="POST">
+
+<div class="vl"></div>
+
+<h2>Nombre: <span style="float:right;" id="Nombre"></span></h2>
+<h2>Precio: <span style="float:right;" id="Precio"></span></h2>
+<h2>Marca: <span style="float:right;" id="Modelo"></span></h2>
+<h2 class="cantidad1">Cantidad remeras: <span style="float:right;" id="Cantidad"></span></h2>
+<h2 class="cantidad22">Cantidad zapatos:  <span style="float:right;" id="Cantidad2" ></span></h2>
+</form>
+
+<input class="remera" type="image" src="remera_nike.jpg" placeholder="Remera" onclick="cargar_datos('remera'), mostrar('cantidad1')">
+<h3 class="remera_text">Remera</h3>
+
+<input class="zapato" type="image" src="zapato.jpg" placeholder="Zapato" onclick="cargar_datos('zapatos'), mostrar('cantidad22')">
+<h3 class="botas_text">Botas</h3>
+
+<body onload="recargar()">
+
+dawd
+</body>
+
+
+</html>
