@@ -1,0 +1,39 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrada</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="entrada.js"> </script>
+</head>
+
+<body onload="loadData()">
+    <h1>Modificar usuario.</h1>
+    <div class="entradac">
+        <table>
+            <tr>
+                <td><h2>CI completa: </h2></td>
+                <td><h2 id="user_ci"></h2></td>
+            </tr>
+            
+            <tr>
+                <td><h2>Nombre: </h2></td>
+                <td><h2 id="user_nombre"></h2></td>
+            </tr>
+    
+            <tr>
+                <td><h2>Apellido: </h2></td>
+                <td><h2 id="user_apellido"></h2></td>
+            </tr>
+        </table>
+        <input class="input1" type="text" id="nombre" placeholder="Nombre"> </br>
+        <input class="input1" type="text" id="apellido" placeholder="Apellido"> </br>
+        <input class="input1" type="number" id="ci" placeholder="CI-Sin guion"> </br>
+        <button type="button" class="button1" name="" value="modif" onclick="modUser(), location.href='entrada.html'">Cambiar</button> <button type="button" class="button1" name="" value="modificar" onclick="location.href='entrada2.html'">Atras</button>
+        <button type="button" class="button1" name="" value="delUser" onclick="delUser(), location.href='entrada.html'">Eliminar usuario</button>
+    </div>
+    
+
+
+
+</body> 
+</html>
